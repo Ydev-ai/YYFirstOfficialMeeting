@@ -1,0 +1,2165 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#FBF9EE" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <title>선우 ♥ 다인 · 상견례 안내</title>
+    <meta name="description" content="2026년 5월 2일 토요일, 양선우와 유다인 양가의 따뜻한 첫 만남에 모십니다." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="선우 ♥ 다인 · 상견례 안내" />
+    <meta property="og:description" content="2026년 5월 2일 토요일 12시, 목향. 양가의 따뜻한 첫 만남." />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gaegu:wght@300;400;700&family=Noto+Serif+KR:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        /* ---------- Reset & Base ---------- */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Gowun Batang', 'Noto Serif KR', serif;
+            color: #3a4a2a;
+            background: #fbf9ee;
+            line-height: 1.7;
+            letter-spacing: -0.005em;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100vh;
+            min-height: 100dvh;
+            /* Korean-friendly word breaking: don't split a Korean word mid-character */
+            word-break: keep-all;
+            overflow-wrap: break-word;
+            -webkit-line-break: strict;
+            line-break: strict;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        span,
+        div,
+        a,
+        button,
+        li {
+            word-break: keep-all;
+            overflow-wrap: break-word;
+        }
+
+        button {
+            font-family: inherit;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* ---------- Color Tokens ---------- */
+        :root {
+            --bg: #fbf9ee;
+            --bg-soft: #f5f2dd;
+            --cream: #fffef7;
+            --green-1: #c9dba2;
+            --green-2: #a8c878;
+            --green-3: #7ea64f;
+            --green-deep: #4a6b2c;
+            --yellow-1: #fbe89a;
+            --yellow-2: #f6d65b;
+            --yellow-deep: #c89a1a;
+            --ink: #3a4a2a;
+            --ink-soft: #6b7a55;
+            --line: rgba(74, 107, 44, 0.18);
+            --shadow-sm: 0 2px 12px rgba(74, 107, 44, 0.08);
+            --shadow-md: 0 8px 30px rgba(74, 107, 44, 0.12);
+        }
+
+        /* ---------- Layout ---------- */
+        .stage {
+            max-width: 480px;
+            margin: 0 auto;
+            position: relative;
+            background: var(--bg);
+            box-shadow: 0 0 60px rgba(74, 107, 44, 0.06);
+            overflow: hidden;
+        }
+
+        section {
+            padding: 56px 28px;
+            position: relative;
+        }
+
+        .section-label {
+            font-family: 'Gaegu', 'Gowun Batang', cursive;
+            font-size: 14px;
+            letter-spacing: 0.4em;
+            color: var(--green-3);
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0 0 16px;
+        }
+
+        .section-title {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 22px;
+            text-align: center;
+            margin: 0 0 32px;
+            color: var(--ink);
+            letter-spacing: 0.02em;
+        }
+
+        .divider {
+            width: 40px;
+            height: 1px;
+            background: var(--green-2);
+            margin: 0 auto 28px;
+            opacity: 0.6;
+        }
+
+        /* ---------- Hero ---------- */
+        .hero {
+            min-height: 92vh;
+            min-height: 92dvh;
+            padding: 0 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            background:
+                radial-gradient(ellipse at 20% 10%, rgba(251, 232, 154, 0.55), transparent 55%),
+                radial-gradient(ellipse at 80% 90%, rgba(201, 219, 162, 0.55), transparent 55%),
+                linear-gradient(180deg, #fdfbef 0%, #f6f3df 100%);
+            overflow: hidden;
+        }
+
+        .hero-floral {
+            position: absolute;
+            pointer-events: none;
+            opacity: 0.85;
+        }
+
+        .hero-floral.tl {
+            top: -10px;
+            left: -20px;
+            width: 180px;
+        }
+
+        .hero-floral.tr {
+            top: 30px;
+            right: -30px;
+            width: 160px;
+            transform: scaleX(-1);
+        }
+
+        .hero-floral.bl {
+            bottom: -10px;
+            left: -30px;
+            width: 200px;
+            transform: scaleY(-1);
+        }
+
+        .hero-floral.br {
+            bottom: 20px;
+            right: -20px;
+            width: 170px;
+            transform: scale(-1, -1);
+        }
+
+        .hero-eyebrow {
+            font-family: 'Gaegu', cursive;
+            font-size: 16px;
+            letter-spacing: 0.5em;
+            color: var(--green-3);
+            margin: 0 0 22px;
+            animation: fadeInDown 1.2s ease-out 0.1s both;
+        }
+
+        .hero-names {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: clamp(38px, 11vw, 52px);
+            color: var(--ink);
+            margin: 0;
+            letter-spacing: 0.04em;
+            animation: fadeInUp 1.2s ease-out 0.3s both;
+        }
+
+        .hero-heart {
+            display: inline-block;
+            color: var(--yellow-deep);
+            font-size: 0.7em;
+            margin: 0 0.2em;
+            animation: pulse 2.4s ease-in-out infinite;
+            vertical-align: middle;
+        }
+
+        .hero-subtitle {
+            font-family: 'Gowun Batang', serif;
+            font-size: 16px;
+            color: var(--ink-soft);
+            margin: 14px 0 0;
+            letter-spacing: 0.18em;
+            animation: fadeInUp 1.2s ease-out 0.5s both;
+        }
+
+        .hero-date-card {
+            margin-top: 38px;
+            padding: 22px 28px;
+            /* Solid cream background instead of backdrop-filter to avoid repaint cost
+         when floating petals animate behind it */
+            background: #fffef7;
+            border: 1px solid rgba(168, 200, 120, 0.35);
+            border-radius: 4px;
+            animation: fadeInUp 1.2s ease-out 0.7s both;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 4px 18px rgba(74, 107, 44, 0.06);
+            /* Promote to its own compositing layer so the card itself is not repainted */
+            transform: translateZ(0);
+            will-change: transform;
+        }
+
+        /* Hero contents stay above petals */
+        .hero>*:not(.hero-floral) {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-floral {
+            z-index: 1;
+        }
+
+        .hero-date-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            font-family: 'Gowun Batang', serif;
+        }
+
+        .hero-date-num {
+            font-size: 38px;
+            font-weight: 700;
+            color: var(--green-deep);
+            line-height: 1;
+        }
+
+        .hero-date-meta {
+            text-align: left;
+            font-size: 13px;
+            color: var(--ink-soft);
+            letter-spacing: 0.05em;
+        }
+
+        .hero-date-meta strong {
+            display: block;
+            font-size: 15px;
+            color: var(--ink);
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .scroll-cue {
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            color: var(--green-3);
+            letter-spacing: 0.3em;
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-cue::after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 24px;
+            background: var(--green-2);
+            margin: 6px auto 0;
+        }
+
+        /* ---------- Countdown ---------- */
+        .countdown-section {
+            background:
+                radial-gradient(circle at 50% 0%, rgba(246, 214, 91, 0.18), transparent 60%),
+                var(--bg);
+        }
+
+        .countdown {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            max-width: 360px;
+            margin: 0 auto;
+        }
+
+        .count-cell {
+            background: var(--cream);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 18px 6px 14px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.3s ease;
+        }
+
+        .count-cell:hover {
+            transform: translateY(-2px);
+        }
+
+        .count-num {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: var(--green-deep);
+            line-height: 1;
+            display: block;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .count-label {
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            color: var(--ink-soft);
+            margin-top: 8px;
+            letter-spacing: 0.15em;
+        }
+
+        .countdown-arrived {
+            text-align: center;
+            font-family: 'Gowun Batang', serif;
+            font-size: 18px;
+            color: var(--green-deep);
+            padding: 28px 0;
+            display: none;
+        }
+
+        /* ---------- Message ---------- */
+        .message-section {
+            background: linear-gradient(180deg, var(--bg) 0%, #f4f0d8 100%);
+            text-align: center;
+        }
+
+        .message-quote {
+            font-family: 'Gowun Batang', serif;
+            font-size: 18px;
+            line-height: 2;
+            color: var(--ink);
+            margin: 0 auto;
+            max-width: 320px;
+            letter-spacing: 0.02em;
+        }
+
+        .message-quote::before,
+        .message-quote::after {
+            content: '"';
+            font-family: 'Noto Serif KR', serif;
+            color: var(--green-2);
+            font-size: 32px;
+            line-height: 0;
+            vertical-align: -0.4em;
+            margin: 0 6px;
+        }
+
+        .message-sign {
+            margin-top: 28px;
+            font-family: 'Gaegu', cursive;
+            font-size: 15px;
+            color: var(--ink-soft);
+            letter-spacing: 0.1em;
+        }
+
+        /* ---------- Image Placeholder + Carousel ---------- */
+        .photo-frame {
+            aspect-ratio: 4 / 5;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            background:
+                repeating-linear-gradient(45deg, rgba(168, 200, 120, 0.05) 0 8px, transparent 8px 16px),
+                var(--cream);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--ink-soft);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .photo-frame::before {
+            content: '';
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 50px;
+            height: 50px;
+            opacity: 0.35;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><circle cx='30' cy='30' r='4' fill='%23a8c878'/><circle cx='18' cy='22' r='3' fill='%23c9dba2'/><circle cx='42' cy='22' r='3' fill='%23c9dba2'/><circle cx='18' cy='38' r='3' fill='%23c9dba2'/><circle cx='42' cy='38' r='3' fill='%23c9dba2'/></svg>");
+            background-repeat: no-repeat;
+        }
+
+        .photo-frame .ph-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 10px;
+            opacity: 0.6;
+        }
+
+        .photo-frame .ph-text {
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+        }
+
+        .photo-frame .ph-num {
+            position: absolute;
+            bottom: 12px;
+            left: 14px;
+            font-family: 'Gowun Batang', serif;
+            font-size: 11px;
+            color: var(--green-3);
+            letter-spacing: 0.2em;
+            opacity: 0.7;
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        /* Horizontal carousel */
+        .photo-section {
+            padding: 8px 0 36px;
+        }
+
+        .photo-carousel {
+            position: relative;
+        }
+
+        .photo-track {
+            display: flex;
+            gap: 12px;
+            padding: 4px 28px 14px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+
+        .photo-track::-webkit-scrollbar {
+            display: none;
+        }
+
+        .photo-track .photo-frame {
+            flex: 0 0 78%;
+            max-width: 320px;
+            scroll-snap-align: center;
+        }
+
+        /* Edge spacers so first/last frames can fully center on snap */
+        .photo-track::before,
+        .photo-track::after {
+            content: '';
+            flex: 0 0 1px;
+        }
+
+        /* Scroll dot indicators */
+        .photo-dots {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .photo-dots span {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--line);
+            transition: all 0.3s ease;
+        }
+
+        .photo-dots span.active {
+            background: var(--green-3);
+            width: 18px;
+            border-radius: 3px;
+        }
+
+        .photo-hint {
+            text-align: center;
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            color: var(--green-3);
+            letter-spacing: 0.25em;
+            margin: 0 0 14px;
+        }
+
+        /* ---------- When (Date/Time Detail) ---------- */
+        .when-section {
+            background: var(--bg);
+        }
+
+        .when-card {
+            background: var(--cream);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 28px 24px;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+            position: relative;
+        }
+
+        .when-card::before,
+        .when-card::after {
+            content: '';
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='2' fill='%23f6d65b'/><circle cx='8' cy='10' r='1.5' fill='%23a8c878'/><circle cx='24' cy='10' r='1.5' fill='%23a8c878'/><circle cx='8' cy='22' r='1.5' fill='%23a8c878'/><circle cx='24' cy='22' r='1.5' fill='%23a8c878'/></svg>");
+            background-repeat: no-repeat;
+            opacity: 0.6;
+        }
+
+        .when-card::before {
+            top: 8px;
+            left: 8px;
+        }
+
+        .when-card::after {
+            bottom: 8px;
+            right: 8px;
+            transform: rotate(180deg);
+        }
+
+        .when-month {
+            font-family: 'Gaegu', cursive;
+            font-size: 13px;
+            letter-spacing: 0.4em;
+            color: var(--green-3);
+            margin: 0 0 6px;
+        }
+
+        .when-day {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 64px;
+            color: var(--green-deep);
+            line-height: 1;
+            margin: 4px 0 6px;
+        }
+
+        .when-weekday {
+            font-family: 'Gowun Batang', serif;
+            font-size: 14px;
+            color: var(--ink-soft);
+            letter-spacing: 0.15em;
+        }
+
+        .when-time {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px dashed var(--line);
+            font-family: 'Gowun Batang', serif;
+            font-size: 18px;
+            color: var(--ink);
+            letter-spacing: 0.05em;
+        }
+
+        .when-time strong {
+            color: var(--green-deep);
+            margin-right: 6px;
+        }
+
+        /* Mini calendar */
+        .mini-cal {
+            margin-top: 22px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            font-family: 'Gowun Batang', serif;
+            font-size: 13px;
+            max-width: 280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .mini-cal .h {
+            color: var(--ink-soft);
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            padding: 4px 0;
+        }
+
+        .mini-cal .h.sun {
+            color: #d97a7a;
+        }
+
+        .mini-cal .h.sat {
+            color: #6a8fc4;
+        }
+
+        .mini-cal .d {
+            padding: 6px 0;
+            color: var(--ink-soft);
+            border-radius: 50%;
+        }
+
+        .mini-cal .d.empty {
+            color: transparent;
+        }
+
+        .mini-cal .d.target {
+            background: var(--green-2);
+            color: white;
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(126, 166, 79, 0.4);
+            position: relative;
+        }
+
+        .mini-cal .d.target::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 4px;
+            background: var(--yellow-2);
+            border-radius: 50%;
+        }
+
+        /* ---------- Where (Location) ---------- */
+        .where-section {
+            background: linear-gradient(180deg, var(--bg) 0%, #f3f0d6 100%);
+        }
+
+        .place-card {
+            background: var(--cream);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+        }
+
+        .place-name {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: var(--ink);
+            margin: 0 0 4px;
+            letter-spacing: 0.04em;
+        }
+
+        .place-tag {
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            color: var(--green-3);
+            letter-spacing: 0.3em;
+            margin-bottom: 14px;
+        }
+
+        .place-addr {
+            font-family: 'Gowun Batang', serif;
+            font-size: 14px;
+            color: var(--ink-soft);
+            line-height: 1.7;
+            margin: 0;
+            padding: 12px 0;
+            border-top: 1px dashed var(--line);
+            border-bottom: 1px dashed var(--line);
+        }
+
+        .map-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .map-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 12px 8px;
+            background: var(--bg-soft);
+            border: 1px solid var(--line);
+            border-radius: 4px;
+            font-family: 'Gowun Batang', serif;
+            font-size: 13px;
+            color: var(--ink);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .map-btn:active {
+            transform: scale(0.97);
+            background: var(--green-1);
+        }
+
+        .map-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .copy-btn {
+            margin-top: 8px;
+            width: 100%;
+            padding: 11px 8px;
+            background: transparent;
+            border: 1px solid var(--green-2);
+            color: var(--green-deep);
+            border-radius: 4px;
+            font-family: 'Gowun Batang', serif;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .copy-btn:active {
+            transform: scale(0.97);
+            background: var(--green-1);
+        }
+
+        .copy-btn.copied {
+            background: var(--green-2);
+            color: white;
+            border-color: var(--green-2);
+        }
+
+        /* ---------- People (Attendees) ---------- */
+        .people-section {
+            background: var(--bg);
+        }
+
+        .families {
+            display: grid;
+            gap: 36px;
+        }
+
+        .family h3 {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            margin: 0 0 4px;
+            color: var(--ink);
+        }
+
+        .family-sub {
+            text-align: center;
+            font-family: 'Gaegu', cursive;
+            font-size: 13px;
+            color: var(--green-3);
+            letter-spacing: 0.3em;
+            margin: 0 0 18px;
+        }
+
+        /* Family layout: parents (top) → main person (full-width) → siblings (bottom) */
+        .person-row {
+            display: grid;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .person-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .person-row.cols-2 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .person-row.cols-1 {
+            grid-template-columns: 1fr;
+        }
+
+        .person-card {
+            background: var(--cream);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 16px 12px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Wide (full-width) card for the bride/groom — taller and slightly more prominent,
+       but still positioned BELOW the parents to respect Korean familial hierarchy */
+        .person-card.wide {
+            padding: 18px 16px;
+        }
+
+        .person-card.wide .person-name {
+            font-size: 20px;
+            letter-spacing: 0.08em;
+        }
+
+        .person-card::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 30px;
+            height: 30px;
+            background: radial-gradient(circle, var(--yellow-1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .person-card:active {
+            transform: scale(0.97);
+        }
+
+        .person-card.flipped::before {
+            opacity: 1;
+        }
+
+        .person-role {
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            color: var(--green-3);
+            letter-spacing: 0.2em;
+            margin-bottom: 6px;
+        }
+
+        .person-name {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 17px;
+            color: var(--ink);
+            letter-spacing: 0.05em;
+        }
+
+        .person-card.highlight {
+            background: linear-gradient(135deg, #fff 0%, var(--yellow-1) 100%);
+            border-color: var(--yellow-2);
+        }
+
+        .person-card.highlight .person-role {
+            color: var(--yellow-deep);
+        }
+
+        .family-divider {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 8px 0;
+        }
+
+        .family-divider::before,
+        .family-divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--line);
+        }
+
+        .family-divider span {
+            font-family: 'Gaegu', cursive;
+            font-size: 14px;
+            color: var(--green-3);
+            letter-spacing: 0.3em;
+        }
+
+        /* ---------- Notes (안내사항) ---------- */
+        .notes-section {
+            background: linear-gradient(180deg, var(--bg) 0%, #f3f0d6 100%);
+        }
+
+        .notes-list {
+            display: grid;
+            gap: 10px;
+        }
+
+        .note-item {
+            background: var(--cream);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 16px 18px;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .note-icon {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--bg-soft);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .note-icon svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .note-text {
+            flex: 1;
+            font-family: 'Gowun Batang', serif;
+        }
+
+        .note-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--ink);
+            margin: 0 0 2px;
+        }
+
+        .note-desc {
+            font-size: 13px;
+            color: var(--ink-soft);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* ---------- CTA Calendar ---------- */
+        .cta-section {
+            background:
+                radial-gradient(ellipse at 50% 50%, rgba(251, 232, 154, 0.4), transparent 70%),
+                var(--bg);
+            text-align: center;
+            padding-bottom: 72px;
+        }
+
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, var(--green-2) 0%, var(--green-3) 100%);
+            color: white;
+            border: none;
+            border-radius: 60px;
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 0.08em;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(126, 166, 79, 0.35);
+            transition: all 0.3s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .cta-btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 4px 12px rgba(126, 166, 79, 0.35);
+        }
+
+        .cta-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .cta-hint {
+            font-family: 'Gaegu', cursive;
+            font-size: 13px;
+            color: var(--ink-soft);
+            margin-top: 14px;
+            letter-spacing: 0.05em;
+        }
+
+        /* ---------- Footer ---------- */
+        .footer {
+            text-align: center;
+            padding: 40px 24px 56px;
+            background: linear-gradient(180deg, var(--bg) 0%, #efebd0 100%);
+            position: relative;
+        }
+
+        .footer-floral {
+            width: 80px;
+            margin: 0 auto 16px;
+            opacity: 0.7;
+        }
+
+        .footer-text {
+            font-family: 'Gowun Batang', serif;
+            font-size: 14px;
+            color: var(--ink-soft);
+            line-height: 2;
+            letter-spacing: 0.05em;
+        }
+
+        .footer-names {
+            font-family: 'Gowun Batang', serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--ink);
+            margin: 12px 0 4px;
+            letter-spacing: 0.1em;
+        }
+
+        .footer-meta {
+            font-family: 'Gaegu', cursive;
+            font-size: 12px;
+            color: var(--green-3);
+            letter-spacing: 0.2em;
+            margin-top: 24px;
+            padding-top: 20px;
+            border-top: 1px solid var(--line);
+        }
+
+        /* ---------- Floating Petals ---------- */
+        .petal {
+            position: fixed;
+            top: -30px;
+            width: 14px;
+            height: 14px;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.7;
+            animation: fall linear infinite;
+            /* Force GPU compositing so each petal lives on its own layer */
+            will-change: transform, opacity;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translate3d(0, -30px, 0) rotate(0deg);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0.7;
+            }
+
+            100% {
+                transform: translate3d(0, 110vh, 0) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.15);
+            }
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+
+            50% {
+                transform: translateX(-50%) translateY(8px);
+            }
+        }
+
+        /* Reveal-on-scroll */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.9s ease, transform 0.9s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ---------- Music Toggle ---------- */
+        .music-toggle {
+            position: fixed;
+            top: calc(env(safe-area-inset-top, 0px) + 14px);
+            right: 14px;
+            z-index: 50;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 1px solid rgba(74, 107, 44, 0.2);
+            background: rgba(255, 254, 247, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(74, 107, 44, 0.15);
+            transition: all 0.3s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .music-toggle:active {
+            transform: scale(0.92);
+        }
+
+        .music-toggle svg {
+            width: 18px;
+            height: 18px;
+            color: var(--green-deep);
+        }
+
+        /* Animated bars when playing */
+        .music-bars {
+            display: none;
+            align-items: flex-end;
+            gap: 2px;
+            height: 16px;
+        }
+
+        .music-bars span {
+            display: block;
+            width: 2px;
+            background: var(--green-deep);
+            border-radius: 1px;
+            animation: bar 1s ease-in-out infinite;
+        }
+
+        .music-bars span:nth-child(1) {
+            animation-delay: -0.4s;
+        }
+
+        .music-bars span:nth-child(2) {
+            animation-delay: -0.2s;
+        }
+
+        .music-bars span:nth-child(3) {
+            animation-delay: 0s;
+        }
+
+        .music-bars span:nth-child(4) {
+            animation-delay: -0.3s;
+        }
+
+        .music-toggle.playing .music-icon-static {
+            display: none;
+        }
+
+        .music-toggle.playing .music-bars {
+            display: flex;
+        }
+
+        @keyframes bar {
+
+            0%,
+            100% {
+                height: 4px;
+            }
+
+            50% {
+                height: 14px;
+            }
+        }
+
+        /* Subtle pulse halo when playing */
+        .music-toggle.playing::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            border: 1px solid var(--green-2);
+            animation: halo 1.8s ease-out infinite;
+            opacity: 0;
+        }
+
+        @keyframes halo {
+            0% {
+                opacity: 0.6;
+                transform: scale(1);
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(1.35);
+            }
+        }
+
+        /* First-visit hint */
+        .music-hint {
+            position: fixed;
+            top: calc(env(safe-area-inset-top, 0px) + 22px);
+            right: 68px;
+            z-index: 49;
+            background: var(--ink);
+            color: var(--cream);
+            font-family: 'Gowun Batang', serif;
+            font-size: 12px;
+            padding: 6px 12px;
+            border-radius: 14px;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateX(8px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            pointer-events: none;
+        }
+
+        .music-hint::after {
+            content: '';
+            position: absolute;
+            right: -5px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-left: 5px solid var(--ink);
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+        }
+
+        .music-hint.show {
+            opacity: 0.95;
+            transform: translateX(0);
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 32px;
+            left: 50%;
+            transform: translateX(-50%) translateY(60px);
+            background: var(--ink);
+            color: var(--cream);
+            padding: 12px 22px;
+            border-radius: 30px;
+            font-family: 'Gowun Batang', serif;
+            font-size: 13px;
+            letter-spacing: 0.05em;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.4s ease;
+            z-index: 100;
+            pointer-events: none;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* Reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+
+            .petal {
+                display: none;
+            }
+        }
+
+        /* Very small screens (iPhone SE 등) */
+        @media (max-width: 360px) {
+            section {
+                padding: 48px 20px;
+            }
+
+            .hero-names {
+                font-size: 36px;
+            }
+
+            .when-day {
+                font-size: 56px;
+            }
+
+            .place-name {
+                font-size: 24px;
+            }
+
+            .count-num {
+                font-size: 26px;
+            }
+        }
+
+        /* Larger phones / tablets */
+        @media (min-width: 481px) {
+            .stage {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+            }
+
+            body {
+                padding: 0 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Background music (replace bgm.mp3 with your own file in same folder) -->
+    <audio id="bgm" loop preload="none" playsinline>
+        <source src="./bgm.mp3" type="audio/mpeg" />
+        <source src="./bgm.m4a" type="audio/mp4" />
+        <source src="./bgm.ogg" type="audio/ogg" />
+    </audio>
+
+    <!-- Music toggle button -->
+    <button class="music-toggle" id="music-toggle" type="button" aria-label="배경음악 켜기/끄기">
+        <svg class="music-icon-static" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13" />
+            <circle cx="6" cy="18" r="3" />
+            <circle cx="18" cy="16" r="3" />
+        </svg>
+        <div class="music-bars" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </button>
+    <div class="music-hint" id="music-hint">탭하면 음악이 흘러요</div>
+
+    <div class="stage">
+
+        <!-- ============= HERO ============= -->
+        <section class="hero">
+            <!-- Floral SVG illustrations (corners) -->
+            <svg class="hero-floral tl" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- branch -->
+                <path d="M10 10 Q 40 60, 80 80 T 160 140" stroke="#7ea64f" stroke-width="1.5" fill="none"
+                    opacity="0.5" />
+                <!-- leaves -->
+                <ellipse cx="40" cy="50" rx="14" ry="6" fill="#a8c878" opacity="0.7" transform="rotate(30 40 50)" />
+                <ellipse cx="70" cy="75" rx="16" ry="7" fill="#c9dba2" opacity="0.7" transform="rotate(-20 70 75)" />
+                <ellipse cx="110" cy="105" rx="14" ry="6" fill="#a8c878" opacity="0.7" transform="rotate(40 110 105)" />
+                <ellipse cx="140" cy="130" rx="12" ry="5" fill="#c9dba2" opacity="0.7"
+                    transform="rotate(-15 140 130)" />
+                <!-- yellow flowers -->
+                <g opacity="0.85">
+                    <circle cx="55" cy="65" r="7" fill="#f6d65b" />
+                    <circle cx="55" cy="65" r="3" fill="#fbe89a" />
+                </g>
+                <g opacity="0.85">
+                    <circle cx="125" cy="115" r="6" fill="#fbe89a" />
+                    <circle cx="125" cy="115" r="2.5" fill="#f6d65b" />
+                </g>
+                <!-- baby's breath (white tiny dots) -->
+                <g fill="#ffffff" opacity="0.95">
+                    <circle cx="30" cy="80" r="1.6" />
+                    <circle cx="35" cy="76" r="1.6" />
+                    <circle cx="32" cy="86" r="1.6" />
+                    <circle cx="90" cy="50" r="1.6" />
+                    <circle cx="96" cy="55" r="1.6" />
+                    <circle cx="92" cy="44" r="1.6" />
+                    <circle cx="155" cy="100" r="1.6" />
+                    <circle cx="160" cy="106" r="1.6" />
+                    <circle cx="150" cy="108" r="1.6" />
+                </g>
+            </svg>
+
+            <svg class="hero-floral tr" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M10 10 Q 40 60, 80 80 T 160 140" stroke="#7ea64f" stroke-width="1.5" fill="none"
+                    opacity="0.5" />
+                <ellipse cx="40" cy="50" rx="14" ry="6" fill="#a8c878" opacity="0.7" transform="rotate(30 40 50)" />
+                <ellipse cx="70" cy="75" rx="16" ry="7" fill="#c9dba2" opacity="0.7" transform="rotate(-20 70 75)" />
+                <ellipse cx="110" cy="105" rx="14" ry="6" fill="#a8c878" opacity="0.7" transform="rotate(40 110 105)" />
+                <g opacity="0.85">
+                    <circle cx="55" cy="65" r="7" fill="#fbe89a" />
+                    <circle cx="55" cy="65" r="3" fill="#f6d65b" />
+                </g>
+                <g opacity="0.85">
+                    <circle cx="125" cy="115" r="6" fill="#f6d65b" />
+                    <circle cx="125" cy="115" r="2.5" fill="#fbe89a" />
+                </g>
+                <g fill="#ffffff" opacity="0.95">
+                    <circle cx="30" cy="80" r="1.6" />
+                    <circle cx="35" cy="76" r="1.6" />
+                    <circle cx="32" cy="86" r="1.6" />
+                    <circle cx="90" cy="50" r="1.6" />
+                    <circle cx="96" cy="55" r="1.6" />
+                    <circle cx="92" cy="44" r="1.6" />
+                    <circle cx="155" cy="100" r="1.6" />
+                    <circle cx="160" cy="106" r="1.6" />
+                </g>
+            </svg>
+
+            <svg class="hero-floral bl" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M10 10 Q 40 60, 80 80 T 160 140" stroke="#7ea64f" stroke-width="1.5" fill="none"
+                    opacity="0.5" />
+                <ellipse cx="40" cy="50" rx="14" ry="6" fill="#c9dba2" opacity="0.7" />
+                <ellipse cx="70" cy="75" rx="16" ry="7" fill="#a8c878" opacity="0.7" />
+                <ellipse cx="110" cy="105" rx="14" ry="6" fill="#c9dba2" opacity="0.7" />
+                <g opacity="0.9">
+                    <circle cx="55" cy="65" r="7" fill="#f6d65b" />
+                </g>
+                <g opacity="0.9">
+                    <circle cx="125" cy="115" r="6" fill="#fbe89a" />
+                </g>
+                <g fill="#ffffff" opacity="0.95">
+                    <circle cx="30" cy="80" r="1.6" />
+                    <circle cx="35" cy="76" r="1.6" />
+                    <circle cx="90" cy="50" r="1.6" />
+                    <circle cx="96" cy="55" r="1.6" />
+                    <circle cx="155" cy="100" r="1.6" />
+                </g>
+            </svg>
+
+            <svg class="hero-floral br" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M10 10 Q 40 60, 80 80 T 160 140" stroke="#7ea64f" stroke-width="1.5" fill="none"
+                    opacity="0.5" />
+                <ellipse cx="40" cy="50" rx="14" ry="6" fill="#a8c878" opacity="0.7" />
+                <ellipse cx="70" cy="75" rx="16" ry="7" fill="#c9dba2" opacity="0.7" />
+                <g opacity="0.9">
+                    <circle cx="55" cy="65" r="7" fill="#fbe89a" />
+                </g>
+                <g opacity="0.9">
+                    <circle cx="125" cy="115" r="6" fill="#f6d65b" />
+                </g>
+                <g fill="#ffffff" opacity="0.95">
+                    <circle cx="30" cy="80" r="1.6" />
+                    <circle cx="35" cy="76" r="1.6" />
+                    <circle cx="90" cy="50" r="1.6" />
+                    <circle cx="96" cy="55" r="1.6" />
+                </g>
+            </svg>
+
+            <p class="hero-eyebrow">SPRING · 2026</p>
+            <h1 class="hero-names">선우<span class="hero-heart">♥</span>다인</h1>
+            <p class="hero-subtitle">상 견 례 안 내</p>
+
+            <div class="hero-date-card">
+                <div class="hero-date-row">
+                    <div class="hero-date-num" id="hero-day">02</div>
+                    <div class="hero-date-meta">
+                        <strong>2026년 5월</strong>
+                        토요일 · 오후 12시
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-cue">SCROLL</div>
+        </section>
+
+        <!-- ============= COUNTDOWN ============= -->
+        <section class="countdown-section reveal">
+            <p class="section-label">D-DAY</p>
+            <h2 class="section-title">다가오는 날</h2>
+            <div class="divider"></div>
+
+            <div class="countdown" id="countdown" aria-live="polite">
+                <div class="count-cell"><span class="count-num" id="cd-d">--</span>
+                    <div class="count-label">DAYS</div>
+                </div>
+                <div class="count-cell"><span class="count-num" id="cd-h">--</span>
+                    <div class="count-label">HOURS</div>
+                </div>
+                <div class="count-cell"><span class="count-num" id="cd-m">--</span>
+                    <div class="count-label">MIN</div>
+                </div>
+                <div class="count-cell"><span class="count-num" id="cd-s">--</span>
+                    <div class="count-label">SEC</div>
+                </div>
+            </div>
+            <div class="countdown-arrived" id="cd-arrived">오늘, 따뜻한 만남이 시작됩니다 🌿</div>
+        </section>
+
+        <!-- ============= MESSAGE ============= -->
+        <section class="message-section reveal">
+            <p class="section-label">INVITATION</p>
+            <h2 class="section-title">초대의 글</h2>
+            <div class="divider"></div>
+
+            <p class="message-quote">
+                봄 햇살이 가장 따스한 날,<br />
+                두 가족이 처음 한자리에 모여<br />
+                서로의 마음을 나누고자 합니다.<br /><br />
+                함께 하는 이 시간,<br />
+                따뜻한 자리가 되었으면 합니다.
+            </p>
+            <p class="message-sign">— 양선우 · 유다인 드림</p>
+        </section>
+
+        <!-- ============= PHOTO CAROUSEL (between message and when) ============= -->
+        <section class="photo-section reveal">
+            <p class="photo-hint">← SWIPE →</p>
+            <div class="photo-carousel">
+                <div class="photo-track" id="photo-track">
+
+                    <div class="photo-frame">
+                        <svg class="ph-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="14" width="52" height="40" rx="3" fill="none" stroke="#7ea64f"
+                                stroke-width="1.5" />
+                            <circle cx="20" cy="28" r="4" fill="#f6d65b" />
+                            <path d="M10 48 L24 36 L36 44 L52 30 L54 50 Z" fill="#c9dba2" opacity="0.6" />
+                        </svg>
+                        <div class="ph-text">PHOTO 01</div>
+                        <div class="ph-num">01 / 06</div>
+                        <!-- 실제 사진 사용 시: <img src="./photos/01.jpg" alt="" /> 로 교체 -->
+                    </div>
+
+                    <div class="photo-frame">
+                        <svg class="ph-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="14" width="52" height="40" rx="3" fill="none" stroke="#7ea64f"
+                                stroke-width="1.5" />
+                            <circle cx="20" cy="28" r="4" fill="#fbe89a" />
+                            <path d="M10 48 L26 38 L38 44 L52 32 L54 50 Z" fill="#a8c878" opacity="0.5" />
+                        </svg>
+                        <div class="ph-text">PHOTO 02</div>
+                        <div class="ph-num">02 / 06</div>
+                    </div>
+
+                    <div class="photo-frame">
+                        <svg class="ph-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="14" width="52" height="40" rx="3" fill="none" stroke="#7ea64f"
+                                stroke-width="1.5" />
+                            <circle cx="22" cy="26" r="4" fill="#f6d65b" />
+                            <path d="M10 48 L22 38 L34 44 L50 30 L54 50 Z" fill="#c9dba2" opacity="0.55" />
+                        </svg>
+                        <div class="ph-text">PHOTO 03</div>
+                        <div class="ph-num">03 / 06</div>
+                    </div>
+
+                    <div class="photo-frame">
+                        <svg class="ph-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="14" width="52" height="40" rx="3" fill="none" stroke="#7ea64f"
+                                stroke-width="1.5" />
+                            <circle cx="20" cy="28" r="4" fill="#fbe89a" />
+                            <path d="M10 48 L24 38 L38 44 L52 32 L54 50 Z" fill="#a8c878" opacity="0.5" />
+                        </svg>
+                        <div class="ph-text">PHOTO 04</div>
+                        <div class="ph-num">04 / 06</div>
+                    </div>
+
+                    <div class="photo-frame">
+                        <svg class="ph-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="14" width="52" height="40" rx="3" fill="none" stroke="#7ea64f"
+                                stroke-width="1.5" />
+                            <circle cx="20" cy="26" r="4" fill="#f6d65b" />
+                            <path d="M10 48 L22 38 L36 44 L50 30 L54 50 Z" fill="#c9dba2" opacity="0.55" />
+                        </svg>
+                        <div class="ph-text">PHOTO 05</div>
+                        <div class="ph-num">05 / 06</div>
+                    </div>
+
+                    <div class="photo-frame">
+                        <svg class="ph-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="14" width="52" height="40" rx="3" fill="none" stroke="#7ea64f"
+                                stroke-width="1.5" />
+                            <circle cx="22" cy="28" r="4" fill="#fbe89a" />
+                            <path d="M10 48 L24 38 L38 44 L52 32 L54 50 Z" fill="#a8c878" opacity="0.5" />
+                        </svg>
+                        <div class="ph-text">PHOTO 06</div>
+                        <div class="ph-num">06 / 06</div>
+                    </div>
+
+                </div>
+
+                <!-- Dot indicators -->
+                <div class="photo-dots" id="photo-dots" aria-hidden="true">
+                    <span class="active"></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= WHEN ============= -->
+        <section class="when-section reveal">
+            <p class="section-label">WHEN</p>
+            <h2 class="section-title">언제 만나요</h2>
+            <div class="divider"></div>
+
+            <div class="when-card">
+                <p class="when-month">2026 · MAY</p>
+                <div class="when-day">02</div>
+                <div class="when-weekday">SATURDAY · 토요일</div>
+
+                <div class="mini-cal" aria-hidden="true">
+                    <div class="h sun">일</div>
+                    <div class="h">월</div>
+                    <div class="h">화</div>
+                    <div class="h">수</div>
+                    <div class="h">목</div>
+                    <div class="h">금</div>
+                    <div class="h sat">토</div>
+                    <div class="d empty">x</div>
+                    <div class="d empty">x</div>
+                    <div class="d empty">x</div>
+                    <div class="d empty">x</div>
+                    <div class="d empty">x</div>
+                    <div class="d">1</div>
+                    <div class="d target">2</div>
+                    <div class="d">3</div>
+                    <div class="d">4</div>
+                    <div class="d">5</div>
+                    <div class="d">6</div>
+                    <div class="d">7</div>
+                    <div class="d">8</div>
+                    <div class="d">9</div>
+                </div>
+
+                <div class="when-time">
+                    <strong>오후</strong> 12 : 00
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= WHERE ============= -->
+        <section class="where-section reveal">
+            <p class="section-label">WHERE</p>
+            <h2 class="section-title">어디에서 만나요</h2>
+            <div class="divider"></div>
+
+            <div class="place-card">
+                <p class="place-tag">한정식 · 봄날의 풍경</p>
+                <h3 class="place-name">목 향</h3>
+                <p class="place-addr">
+                    경기 고양시 덕양구<br />
+                    강매로 110-18
+                </p>
+
+                <div class="map-buttons">
+                    <a class="map-btn"
+                        href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC%20%EA%B0%95%EB%A7%A4%EB%A1%9C%20110-18%20%EB%AA%A9%ED%96%A5"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#03c75a">
+                            <rect width="16" height="16" rx="2" />
+                            <path fill="#fff" d="M10.5 11.5h-1.7L6.7 8.3v3.2H5V4.5h1.7l2.1 3.2V4.5h1.7z" />
+                        </svg>
+                        네이버 지도
+                    </a>
+                    <a class="map-btn"
+                        href="https://map.kakao.com/?q=%EA%B2%BD%EA%B8%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC%20%EA%B0%95%EB%A7%A4%EB%A1%9C%20110-18%20%EB%AA%A9%ED%96%A5"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#fae100">
+                            <rect width="16" height="16" rx="2" />
+                            <path fill="#3c1e1e"
+                                d="M8 3.5c-2.5 0-4.5 1.6-4.5 3.6 0 1.3.9 2.4 2.2 3.1L5 12l2.3-1.5c.2 0 .5.1.7.1 2.5 0 4.5-1.6 4.5-3.6S10.5 3.5 8 3.5z" />
+                        </svg>
+                        카카오맵
+                    </a>
+                </div>
+
+                <button class="copy-btn" id="copy-addr" type="button">📋 주소 복사하기</button>
+            </div>
+        </section>
+
+        <!-- ============= PEOPLE ============= -->
+        <section class="people-section reveal">
+            <p class="section-label">FAMILY</p>
+            <h2 class="section-title">함께하는 사람들</h2>
+            <div class="divider"></div>
+
+            <div class="families">
+
+                <!-- Groom Side -->
+                <div class="family">
+                    <h3>신랑 측</h3>
+                    <p class="family-sub">GROOM'S FAMILY</p>
+
+                    <!-- 1) 부모님 (가장 위) -->
+                    <div class="person-row cols-2">
+                        <div class="person-card">
+                            <div class="person-role">아버지</div>
+                            <div class="person-name">양병채</div>
+                        </div>
+                        <div class="person-card">
+                            <div class="person-role">어머니</div>
+                            <div class="person-name">김정희</div>
+                        </div>
+                    </div>
+
+                    <!-- 2) 본인 (가로 꽉, 부모님 아래) -->
+                    <div class="person-row cols-1">
+                        <div class="person-card highlight wide">
+                            <div class="person-role">예비 신랑</div>
+                            <div class="person-name">양선우</div>
+                        </div>
+                    </div>
+
+                    <!-- 3) 형제자매 (가장 아래) -->
+                    <div class="person-row cols-2">
+                        <div class="person-card">
+                            <div class="person-role">여동생</div>
+                            <div class="person-name">양세미</div>
+                        </div>
+                        <div class="person-card">
+                            <div class="person-role">여동생</div>
+                            <div class="person-name">양세희</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="family-divider"><span>♡</span></div>
+
+                <!-- Bride Side -->
+                <div class="family">
+                    <h3>신부 측</h3>
+                    <p class="family-sub">BRIDE'S FAMILY</p>
+
+                    <!-- 1) 부모님 -->
+                    <div class="person-row cols-2">
+                        <div class="person-card">
+                            <div class="person-role">아버지</div>
+                            <div class="person-name">유완호</div>
+                        </div>
+                        <div class="person-card">
+                            <div class="person-role">어머니</div>
+                            <div class="person-name">최영선</div>
+                        </div>
+                    </div>
+
+                    <!-- 2) 본인 -->
+                    <div class="person-row cols-1">
+                        <div class="person-card highlight wide">
+                            <div class="person-role">예비 신부</div>
+                            <div class="person-name">유다인</div>
+                        </div>
+                    </div>
+
+                    <!-- 3) 형제자매 -->
+                    <div class="person-row cols-2">
+                        <div class="person-card">
+                            <div class="person-role">언니</div>
+                            <div class="person-name">유다영</div>
+                        </div>
+                        <div class="person-card">
+                            <div class="person-role">남동생</div>
+                            <div class="person-name">유근서</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= NOTES ============= -->
+        <section class="notes-section reveal">
+            <p class="section-label">NOTICE</p>
+            <h2 class="section-title">함께 알아두실 점</h2>
+            <div class="divider"></div>
+
+            <div class="notes-list">
+                <div class="note-item">
+                    <div class="note-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea64f" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M3 6h18M3 12h18M3 18h18" />
+                        </svg>
+                    </div>
+                    <div class="note-text">
+                        <p class="note-title">단정한 옷차림</p>
+                        <p class="note-desc">편안하지만 단정한 차림으로 와주세요.</p>
+                    </div>
+                </div>
+
+                <div class="note-item">
+                    <div class="note-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea64f" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="8" rx="1" />
+                            <path d="M5 11V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4" />
+                            <circle cx="7" cy="19" r="2" />
+                            <circle cx="17" cy="19" r="2" />
+                        </svg>
+                    </div>
+                    <div class="note-text">
+                        <p class="note-title">주차 가능</p>
+                        <p class="note-desc">식당에 주차 공간이 마련되어 있습니다.</p>
+                    </div>
+                </div>
+
+                <div class="note-item">
+                    <div class="note-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea64f" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <polyline points="12 7 12 12 15 14" />
+                        </svg>
+                    </div>
+                    <div class="note-text">
+                        <p class="note-title">신랑신부 먼저 도착</p>
+                        <p class="note-desc">예비 신랑과 신부는 양가 어른들보다 먼저 도착하여 자리를 준비합니다.</p>
+                    </div>
+                </div>
+
+                <div class="note-item">
+                    <div class="note-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#7ea64f" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M12 2 L14 9 L21 9 L15.5 13.5 L17.5 21 L12 16.5 L6.5 21 L8.5 13.5 L3 9 L10 9 Z" />
+                        </svg>
+                    </div>
+                    <div class="note-text">
+                        <p class="note-title">따뜻한 마음 한 줌</p>
+                        <p class="note-desc">서로를 알아가는 편안한 시간이 되기를 바랍니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= CTA ============= -->
+        <section class="cta-section reveal">
+            <p class="section-label">REMINDER</p>
+            <h2 class="section-title">캘린더에 담아두세요</h2>
+            <div class="divider"></div>
+
+            <button class="cta-btn" id="add-cal" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="3" y="5" width="18" height="16" rx="2" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                    <line x1="8" y1="3" x2="8" y2="7" />
+                    <line x1="16" y1="3" x2="16" y2="7" />
+                    <line x1="12" y1="14" x2="12" y2="18" />
+                    <line x1="10" y1="16" x2="14" y2="16" />
+                </svg>
+                내 캘린더에 추가하기
+            </button>
+            <p class="cta-hint">
+                iPhone · Galaxy · Outlook<br />
+                어떤 캘린더에든 한 번에 담겨요
+            </p>
+        </section>
+
+        <!-- ============= FOOTER ============= -->
+        <footer class="footer">
+            <svg class="footer-floral" viewBox="0 0 80 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M5 30 Q 25 5, 40 20 T 75 30" stroke="#7ea64f" stroke-width="1.2" fill="none" opacity="0.6" />
+                <ellipse cx="20" cy="20" rx="6" ry="3" fill="#c9dba2" opacity="0.8" />
+                <ellipse cx="55" cy="22" rx="6" ry="3" fill="#a8c878" opacity="0.8" />
+                <circle cx="40" cy="18" r="4" fill="#f6d65b" />
+                <circle cx="40" cy="18" r="2" fill="#fbe89a" />
+                <g fill="#ffffff" opacity="0.9">
+                    <circle cx="12" cy="14" r="1.4" />
+                    <circle cx="68" cy="14" r="1.4" />
+                    <circle cx="30" cy="10" r="1.4" />
+                    <circle cx="50" cy="10" r="1.4" />
+                </g>
+            </svg>
+            <div class="footer-text">
+                봄날의 따뜻한 햇살 아래<br />
+                뜻깊은 자리가 되기를 바랍니다.
+            </div>
+            <div class="footer-names">선 우 · 다 인</div>
+            <div class="footer-meta">2026 · 05 · 02 · MOKHYANG</div>
+        </footer>
+
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // ===== D-Day Countdown =====
+        // KST: 2026-05-02 12:00:00 (+09:00)
+        const TARGET = new Date('2026-05-02T12:00:00+09:00').getTime();
+
+        function pad(n) { return String(n).padStart(2, '0'); }
+
+        function tick() {
+            const now = Date.now();
+            const diff = TARGET - now;
+
+            const cdEl = document.getElementById('countdown');
+            const arr = document.getElementById('cd-arrived');
+
+            if (diff <= 0) {
+                cdEl.style.display = 'none';
+                arr.style.display = 'block';
+                // After 3 hours show "함께한 시간이었습니다" maybe — keep simple
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+            const mins = Math.floor((diff / (1000 * 60)) % 60);
+            const secs = Math.floor((diff / 1000) % 60);
+
+            document.getElementById('cd-d').textContent = pad(days);
+            document.getElementById('cd-h').textContent = pad(hours);
+            document.getElementById('cd-m').textContent = pad(mins);
+            document.getElementById('cd-s').textContent = pad(secs);
+        }
+        tick();
+        setInterval(tick, 1000);
+
+        // ===== Reveal on scroll =====
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach((e) => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+        // ===== Toast =====
+        let toastTimer;
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+        }
+
+        // ===== Copy address =====
+        document.getElementById('copy-addr').addEventListener('click', async (e) => {
+            const addr = '경기 고양시 덕양구 강매로 110-18 (목향)';
+            const btn = e.currentTarget;
+            try {
+                await navigator.clipboard.writeText(addr);
+                btn.classList.add('copied');
+                btn.textContent = '✓ 복사되었습니다';
+                showToast('주소가 복사되었어요');
+                setTimeout(() => {
+                    btn.classList.remove('copied');
+                    btn.textContent = '📋 주소 복사하기';
+                }, 2000);
+            } catch (err) {
+                // Fallback
+                const ta = document.createElement('textarea');
+                ta.value = addr; document.body.appendChild(ta);
+                ta.select(); document.execCommand('copy');
+                document.body.removeChild(ta);
+                showToast('주소가 복사되었어요');
+            }
+        });
+
+        // ===== Person card tap effect =====
+        document.querySelectorAll('.person-card').forEach((card) => {
+            card.addEventListener('click', () => {
+                card.classList.toggle('flipped');
+            });
+        });
+
+        // ===== Add to calendar (.ics download) =====
+        document.getElementById('add-cal').addEventListener('click', () => {
+            // .ics file content
+            const dtStart = '20260502T120000';
+            const dtEnd = '20260502T140000';
+            const dtStamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+            const ics = [
+                'BEGIN:VCALENDAR',
+                'VERSION:2.0',
+                'PRODID:-//Sunwoo & Dain//Sanggyeonrye//KR',
+                'CALSCALE:GREGORIAN',
+                'METHOD:PUBLISH',
+                'BEGIN:VTIMEZONE',
+                'TZID:Asia/Seoul',
+                'BEGIN:STANDARD',
+                'DTSTART:19700101T000000',
+                'TZOFFSETFROM:+0900',
+                'TZOFFSETTO:+0900',
+                'TZNAME:KST',
+                'END:STANDARD',
+                'END:VTIMEZONE',
+                'BEGIN:VEVENT',
+                'UID:sanggyeonrye-20260502@sunwoo-dain',
+                'DTSTAMP:' + dtStamp,
+                'DTSTART;TZID=Asia/Seoul:' + dtStart,
+                'DTEND;TZID=Asia/Seoul:' + dtEnd,
+                'SUMMARY:선우 ♥ 다인 상견례',
+                'LOCATION:목향 (경기 고양시 덕양구 강매로 110-18)',
+                'DESCRIPTION:긴장되지만 따뜻한 자리가 되었으면 합니다.\\n양가 가족의 첫 만남에 모십니다.',
+                'STATUS:CONFIRMED',
+                'BEGIN:VALARM',
+                'TRIGGER:-PT1H',
+                'ACTION:DISPLAY',
+                'DESCRIPTION:상견례 1시간 전입니다',
+                'END:VALARM',
+                'END:VEVENT',
+                'END:VCALENDAR'
+            ].join('\r\n');
+
+            const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'sanggyeonrye-2026-05-02.ics';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+            showToast('캘린더 파일이 다운로드되었어요');
+        });
+
+        // ===== Floating petals =====
+        (function makePetals() {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+            // Lighter device tier for low-end phones
+            const isLowEnd = (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4) ||
+                /Android.*(SM-A|SM-M|LG)/.test(navigator.userAgent);
+            const colors = ['#fbe89a', '#f6d65b', '#c9dba2', '#a8c878', '#ffffff'];
+            const petalCount = isLowEnd ? 7 : 10;
+            const frag = document.createDocumentFragment();
+            for (let i = 0; i < petalCount; i++) {
+                const p = document.createElement('div');
+                p.className = 'petal';
+                const size = 6 + Math.random() * 9;
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                p.style.width = size + 'px';
+                p.style.height = size + 'px';
+                p.style.left = Math.random() * 100 + '%';
+                p.style.background = color;
+                p.style.borderRadius = (Math.random() > 0.5) ? '50%' : '40% 60% 60% 40%';
+                p.style.animationDuration = (12 + Math.random() * 14) + 's';
+                p.style.animationDelay = -Math.random() * 22 + 's';
+                p.style.opacity = (0.45 + Math.random() * 0.35).toString();
+                frag.appendChild(p);
+            }
+            document.body.appendChild(frag);
+        })();
+
+        // ===== Photo carousel dot indicators =====
+        (function setupCarousel() {
+            const track = document.getElementById('photo-track');
+            const dots = document.querySelectorAll('#photo-dots span');
+            if (!track || !dots.length) return;
+
+            let raf = null;
+            track.addEventListener('scroll', () => {
+                if (raf) return;
+                raf = requestAnimationFrame(() => {
+                    raf = null;
+                    const frames = track.querySelectorAll('.photo-frame');
+                    const center = track.scrollLeft + track.clientWidth / 2;
+                    let nearestIdx = 0;
+                    let nearestDist = Infinity;
+                    frames.forEach((f, i) => {
+                        const fc = f.offsetLeft + f.offsetWidth / 2;
+                        const d = Math.abs(fc - center);
+                        if (d < nearestDist) { nearestDist = d; nearestIdx = i; }
+                    });
+                    dots.forEach((dot, i) => dot.classList.toggle('active', i === nearestIdx));
+                });
+            }, { passive: true });
+        })();
+
+        // ===== Lock pinch-zoom (already via meta) =====
+        // Prevent double-tap zoom on buttons
+        document.querySelectorAll('button, a').forEach((el) => {
+            el.addEventListener('touchend', () => { }, { passive: true });
+        });
+
+        // ===== Background Music =====
+        (function setupMusic() {
+            const audio = document.getElementById('bgm');
+            const btn = document.getElementById('music-toggle');
+            const hint = document.getElementById('music-hint');
+            audio.volume = 0.4; // gentle background level
+
+            // Show first-visit hint after 1.5s, hide after 4.5s
+            setTimeout(() => hint.classList.add('show'), 1500);
+            setTimeout(() => hint.classList.remove('show'), 4800);
+
+            let isPlaying = false;
+
+            btn.addEventListener('click', async () => {
+                hint.classList.remove('show');
+                try {
+                    if (isPlaying) {
+                        audio.pause();
+                        btn.classList.remove('playing');
+                        isPlaying = false;
+                    } else {
+                        await audio.play();
+                        btn.classList.add('playing');
+                        isPlaying = true;
+                    }
+                } catch (err) {
+                    // Likely no audio source available
+                    showToast('음악 파일(bgm.mp3)을 찾을 수 없어요');
+                    console.warn('Audio play failed:', err);
+                }
+            });
+
+            // Pause when tab hidden, resume when visible (if was playing)
+            document.addEventListener('visibilitychange', () => {
+                if (document.hidden && isPlaying) {
+                    audio.pause();
+                } else if (!document.hidden && isPlaying) {
+                    audio.play().catch(() => { });
+                }
+            });
+        })();
+    </script>
+
+</body>
+
+</html>
